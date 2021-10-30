@@ -48,6 +48,10 @@
     height: 48px;
     border-radius: 4px;
     margin-top: 20px;
+
+    &--blue {
+      background-color: #006ff9;
+    }
   }
 
   &__button:first-child {
