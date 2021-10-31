@@ -1,0 +1,87 @@
+.properties {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  &__title {
+    color: $black;
+    font-size: 36px;
+    width: 718px;
+    height: 44px;
+    line-height: 44px;
+    margin-top: 80px;
+  }
+
+  &__text {
+    width: 572px;
+    height: 52px;
+    font-size: 15px;
+    text-align: center;
+    color: $gray;
+    margin-top: 20px;
+  }
+
+  &__inner {
+    display: flex;
+    margin-top: 45px;
+  }
+}
+.propertie {
+  &__card {
+    width: calc(21.5em + 4px);
+    height: calc(21.5em + 4px);
+    margin: 0px 46px;
+    padding: 29px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: space-between;
+    border: 1px solid #c9c9c9;
+  }
+
+  &__card:nth-child(2) {
+    background-color: $blue;
+  }
+
+  &__card:nth-child(2) > &__icon {
+    background-color: $white;
+  }
+
+  &__card:nth-child(2) > &__title {
+    color: $white;
+  }
+
+  &__card:nth-child(2) > &__text {
+    color: $white;
+    opacity: 0.6;
+  }
+
+  &__card:nth-child(2) > &__link {
+    color: $white;
+  }
+
+  &__icon {
+    width: 62px;
+    height: 62px;
+    border-radius: 8px;
+    background-color: $blue;
+  }
+
+  &__title {
+    color: $black;
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  &__text {
+    font-size: 15px;
+    line-height: 28px;
+    color: $gray;
+  }
+
+  &__link {
+    font-size: 16px;
+    line-height: 15px;
+    color: $black;
+  }
+}

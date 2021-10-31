@@ -1,0 +1,88 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 0px 350px 0px;
+  &__title {
+    color: $black;
+    font-size: 36px;
+  }
+
+  &__text {
+    font-size: 15px;
+    line-height: 26px;
+    color: #999999;
+    max-width: 580px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  &__inner {
+    display: flex;
+  }
+
+  &__slider-comments {
+    width: auto;
+    height: 407px;
+    margin-top: 50px;
+    display: flex;
+  }
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 20px;
+  }
+
+  &__comment {
+    width: 350px;
+    height: 192px;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-color: $white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px 1px rgb(207, 207, 207);
+  }
+
+  &__comment::before {
+    content: '“';
+    color: $blue;
+    position: absolute;
+    top: 15%;
+    font-size: 80px;
+  }
+
+  &__comment::after {
+    content: '▼';
+    color: $white;
+    position: absolute;
+    top: 98%;
+    font-size: 30px;
+    // transform: rotate(180deg);
+  }
+
+  &__avatar {
+    margin-top: 40px;
+  }
+
+  &__name {
+    color: $black;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  &__profession {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #6f7074;
+  }
+}
