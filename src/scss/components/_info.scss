@@ -83,7 +83,7 @@
   }
 
   &__img {
-    background-image: url(../../../public/img/info/person_main.png);
+    background-image: url(../img/info/person_main.png);
     background-size: 100% 100%;
     width: 503px;
     height: 545px;
@@ -110,6 +110,7 @@
 
     &--blue {
       background-color: #006ff9;
+      color: $white;
     }
     font-weight: 400;
   }
