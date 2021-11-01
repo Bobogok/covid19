@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <title>Gulp</title>
   </head>
   <body>
     <header class="header">
       <div class="header__inner container">
-        <img class="header__logo" src="./img/logo.png" />
+        <img class="header__logo" src="./img/header/logo.png" />
         <div class="header__menu">
           <ul class="header__items">
             <li class="header__item active">Home</li>
@@ -36,6 +37,13 @@
     </header>
     <main>
       <section class="info">
+        <div class="info__wrapper">
+          <img class="info__wrapper__square--white-top" src="img/info/square_white.png" alt="" />
+          <img class="info__wrapper__square--white-bottom" src="img/info/square_white.png" alt="" />
+          <img class="info__wrapper__square--translucent-top" src="img/info/square_translucent.png" alt="" />
+          <img class="info__wrapper__square--translucent-bottom" src="img/info/square_translucent.png" alt="" />
+          <img class="info__wrapper__triangle" src="img/info/triangle.png" alt="" />
+        </div>
         <div class="info__inner">
           <div class="info__block-text">
             <div class="info__made">MADE IN BRITAIN</div>
@@ -69,7 +77,7 @@
             <div class="propertie__text">
               HeiQ viroblock works to deactivate. the virus with minutes and effective for 30 washes.
             </div>
-            <div class="propertie__link">Learn More -></div>
+            <div class="propertie__link">Learn More ➜</div>
           </div>
           <div class="propertie__card">
             <div class="propertie__icon"></div>
@@ -77,7 +85,7 @@
             <div class="propertie__text">
               HeiQ viroblock works to deactivate. the virus with minutes and effective for 30 washes.
             </div>
-            <div class="propertie__link">Learn More -></div>
+            <div class="propertie__link">Learn More ➜</div>
           </div>
           <div class="propertie__card">
             <div class="propertie__icon"></div>
@@ -85,9 +93,10 @@
             <div class="propertie__text">
               HeiQ viroblock works to deactivate. the virus with minutes and effective for 30 washes.
             </div>
-            <div class="propertie__link">Learn More -></div>
+            <div class="propertie__link">Learn More ➜</div>
           </div>
         </div>
+        <img class="properties__pattern" src="img/properties/pattern.png" alt="" />
       </section>
       <section class="heiq">
         <div class="heiq__inner">
@@ -103,7 +112,7 @@
               enclosed space, 1TcA has launched the first British made reusable, sustainable face masks and snoods,
               manufactured using GRS fabric, woven from recycled waste plastic and treated.
             </div>
-            <div class="heiq__link">Learn More -></div>
+            <div class="heiq__link">Learn More ➜</div>
           </div>
         </div>
       </section>
@@ -182,12 +191,68 @@
               <div class="about__name">Jane Cooper</div>
               <div class="about__profession">CEO at ABC Corporation</div>
             </div>
+            <div class="about__card">
+              <div class="about__comment">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat
+                nunc sem. when an unknown printer took a galley.
+              </div>
+              <img class="about__avatar" src="img/about/avatar.png" />
+              <div class="about__name">Jane Cooper</div>
+              <div class="about__profession">CEO at Design Space</div>
+            </div>
+            <div class="about__card">
+              <div class="about__comment">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat
+                nunc sem. when an unknown printer took a galley.
+              </div>
+              <img class="about__avatar" src="img/about/avatar.png" />
+              <div class="about__name">Jane Cooper</div>
+              <div class="about__profession">CTO at Google Maps</div>
+            </div>
+            <div class="about__card">
+              <div class="about__comment">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat
+                nunc sem. when an unknown printer took a galley.
+              </div>
+              <img class="about__avatar" src="img/about/avatar.png" />
+              <div class="about__name">Jane Cooper</div>
+              <div class="about__profession">CEO at ABC Corporation</div>
+            </div>
+            <div class="about__card">
+              <div class="about__comment">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat
+                nunc sem. when an unknown printer took a galley.
+              </div>
+              <img class="about__avatar" src="img/about/avatar.png" />
+              <div class="about__name">Jane Cooper</div>
+              <div class="about__profession">CEO at Design Space</div>
+            </div>
+            <div class="about__card">
+              <div class="about__comment">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat
+                nunc sem. when an unknown printer took a galley.
+              </div>
+              <img class="about__avatar" src="img/about/avatar.png" />
+              <div class="about__name">Jane Cooper</div>
+              <div class="about__profession">CTO at Google Maps</div>
+            </div>
+            <div class="about__card">
+              <div class="about__comment">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat
+                nunc sem. when an unknown printer took a galley.
+              </div>
+              <img class="about__avatar" src="img/about/avatar.png" />
+              <div class="about__name">Jane Cooper</div>
+              <div class="about__profession">CEO at ABC Corporation</div>
+            </div>
           </div>
         </div>
       </section>
       <section class="signboard bg-blue">
         <div class="signboard__title">All 1TCA profits are donated to charitable Causes and community projects</div>
-        <button class="signboard__button">Shop Now</button>
+        <button class="signboard__button">Shop Now ➜</button>
+        <img class="signboard__rectangle--left" src="img/signboard/rectangle__left.png" alt="" />
+        <img class="signboard__rectangle--right" src="img/signboard/rectangle__right.png" alt="" />
       </section>
     </main>
     <footer class="footer">
@@ -228,7 +293,9 @@
         </ul>
       </div>
       <div class="footer__privacy">©2020 1TCA | PRIVACY POLICY | Disclaimer</div>
+      <img class="footer__pattern" src="img/footer/pattern.png" alt="" />
     </footer>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
     <script src="js/main.min.js"></script>
   </body>
 </html>

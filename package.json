@@ -36,6 +36,7 @@
   "dependencies": {
     "gulp-htmlmin": "^5.0.1",
     "gulp-if": "^3.0.0",
+    "slick-carousel": "^1.8.1",
     "terser": "^5.9.0",
     "yargs": "^17.2.1"
   }

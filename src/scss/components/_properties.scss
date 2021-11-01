@@ -2,6 +2,13 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: relative;
+
+  &__pattern {
+    position: absolute;
+    right: 0%;
+    top: 50%;
+  }
   &__title {
     color: $black;
     font-size: 36px;
@@ -65,6 +72,42 @@
     height: 62px;
     border-radius: 8px;
     background-color: $blue;
+    position: relative;
+  }
+
+  &__card:nth-child(1) > &__icon::after {
+    content: url(../../../public/img/properties/gear.png);
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+
+  &__card:nth-child(1) > &__icon::before {
+    content: url(../../../public/img/properties/arrow.png);
+    position: absolute;
+    top: 38%;
+    left: 40%;
+  }
+
+  &__card:nth-child(2) > &__icon::after {
+    content: url(../../../public/img/properties/arrows.png);
+    position: absolute;
+    top: 28%;
+    left: 28%;
+  }
+
+  &__card:nth-child(3) > &__icon::after {
+    content: url(../../../public/img/properties/semi_gear.png);
+    position: absolute;
+    top: 30%;
+    left: 30%;
+  }
+
+  &__card:nth-child(3) > &__icon::before {
+    content: url(../../../public/img/properties/magnifier.png);
+    position: absolute;
+    top: 40%;
+    left: 40%;
   }
 
   &__title {

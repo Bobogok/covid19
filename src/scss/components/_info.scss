@@ -1,8 +1,49 @@
 .info {
   width: auto;
-  height: 751px;
+  height: 851px;
   display: flex;
   justify-content: center;
+  position: relative;
+
+  &__wrapper {
+    position: absolute;
+    height: 100%;
+    width: 700px;
+    right: 0%;
+    z-index: -2;
+    background-color: #0a236d;
+
+    &__square--white-top {
+      position: absolute;
+      top: 3.5%;
+      left: -5%;
+    }
+
+    &__square--white-bottom {
+      position: absolute;
+      bottom: 0%;
+      left: -5%;
+    }
+
+    &__square--translucent-top {
+      position: absolute;
+      top: 30%;
+      left: 27%;
+    }
+
+    &__square--translucent-bottom {
+      position: absolute;
+      top: 68%;
+      left: 15%;
+      transform: rotate(23.74deg);
+    }
+
+    &__triangle {
+      position: absolute;
+      right: 0%;
+      bottom: 0%;
+    }
+  }
 
   &__inner {
     display: flex;
@@ -39,8 +80,23 @@
   }
 
   &__img {
+    background-image: url(../../../public/img/info/person_main.png);
+    background-size: 100% 100%;
     width: 503px;
     height: 545px;
+    border-radius: 50%;
+    margin-left: 90px;
+  }
+
+  &__img::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    width: 503px;
+    height: 505px;
+    bottom: 19%;
+    border-radius: 50%;
+    background-color: $blue;
   }
 
   &__button {
