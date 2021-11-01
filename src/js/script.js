@@ -1,5 +1,5 @@
-const [a, b] = [5, 9];
+import 'slick-carousel';
 
-const sum = (...args) => [...args].reduce((sum, elem) => sum + elem, 0);
-
-console.log(sum(a, b));
+$('.about__slider-comments').slick({
+  rtl: true
+});

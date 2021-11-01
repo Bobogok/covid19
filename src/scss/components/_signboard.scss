@@ -9,6 +9,7 @@
   border-radius: 10px;
   top: 96%;
   left: 21%;
+  z-index: 5;
   &__title {
     width: 878px;
     text-align: center;
@@ -25,5 +26,17 @@
     font-size: 20px;
     justify-content: space-evenly;
     border-radius: 2px;
+  }
+
+  &__rectangle--left {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+  }
+
+  &__rectangle--right {
+    position: absolute;
+    top: 0%;
+    right: 0%;
   }
 }

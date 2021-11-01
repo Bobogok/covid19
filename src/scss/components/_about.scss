@@ -39,7 +39,7 @@
 
   &__comment {
     width: 350px;
-    height: 192px;
+    height: 262px;
     font-size: 14px;
     line-height: 24px;
     padding: 30px;
@@ -57,7 +57,7 @@
     content: '“';
     color: $blue;
     position: absolute;
-    top: 15%;
+    top: 20%;
     font-size: 80px;
   }
 
@@ -71,7 +71,7 @@
   }
 
   &__avatar {
-    margin-top: 40px;
+    margin-top: 50px;
   }
 
   &__name {
