@@ -9,7 +9,6 @@
   &__block-text {
     width: 454px;
     height: auto;
-    margin-right: 50px;
   }
 
   &__title {
@@ -17,6 +16,7 @@
     line-height: 44px;
     color: $black;
     width: 309px;
+    font-weight: 600;
   }
 
   &__points {
@@ -30,6 +30,7 @@
     width: 431px;
     margin-top: 20px;
     line-height: 20px;
+    font-weight: 300;
   }
 
   &__point::before {
@@ -49,7 +50,7 @@
 
   &__block-images {
     position: relative;
-    margin-left: 120px;
+    margin-left: 80px;
   }
 
   &__image--doctor {

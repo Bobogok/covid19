@@ -31,6 +31,7 @@
     font-size: 14px;
     margin-top: 30px;
     line-height: 22px;
+    font-weight: 300;
   }
 
   &__social {
@@ -46,12 +47,14 @@
     color: $white;
     padding-bottom: 20px;
     border-bottom: 1px solid #6f7074;
+    font-weight: 500;
   }
 
   &__link {
     color: #fafafa;
     margin-top: 20px;
     opacity: 0.8;
+    font-weight: 300;
   }
 
   &__seal {
@@ -62,6 +65,7 @@
     color: #6f7074;
     font-size: 14px;
     margin-top: 30px;
+    font-weight: 400;
   }
 
   &__pattern {

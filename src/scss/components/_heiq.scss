@@ -53,23 +53,27 @@
     color: $blue;
     font-size: 14px;
     line-height: 18px;
+    font-weight: 600;
   }
 
   &__title {
     color: $black;
     font-size: 26px;
     line-height: 36px;
+    font-weight: 600;
   }
 
   &__text {
     color: #6f7074;
     font-size: 15px;
     line-height: 28px;
+    font-weight: 300;
   }
 
   &__link {
     color: $black;
     font-size: 16px;
     line-height: 15px;
+    font-weight: 500;
   }
 }

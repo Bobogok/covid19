@@ -8,6 +8,7 @@
   &__title {
     color: $black;
     font-size: 36px;
+    font-weight: 500;
   }
 
   &__text {
@@ -17,6 +18,7 @@
     max-width: 580px;
     text-align: center;
     margin-top: 20px;
+    font-weight: 300;
   }
 
   &__inner {
@@ -52,6 +54,7 @@
     background-color: $white;
     border-radius: 10px;
     box-shadow: 1px 1px 30px 1px rgb(207, 207, 207);
+    font-weight: 400;
   }
 
   &__comment::before {
@@ -79,11 +82,13 @@
     color: $black;
     font-size: 18px;
     margin-top: 15px;
+    font-weight: 500;
   }
 
   &__profession {
     margin-top: 10px;
     font-size: 14px;
     color: #6f7074;
+    font-weight: 300;
   }
 }

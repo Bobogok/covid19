@@ -16,6 +16,7 @@
     height: 44px;
     line-height: 44px;
     margin-top: 80px;
+    font-weight: 600;
   }
 
   &__text {
@@ -24,7 +25,8 @@
     font-size: 15px;
     text-align: center;
     color: $gray;
-    margin-top: 20px;
+    margin-top: 30px;
+    font-weight: 300;
   }
 
   &__inner {
@@ -43,7 +45,7 @@
     flex-direction: column;
     border-radius: 8px;
     justify-content: space-between;
-    border: 1px solid #c9c9c9;
+    border: 1px solid #e6e6e6;
   }
 
   &__card:nth-child(2) {
@@ -114,17 +116,20 @@
     color: $black;
     font-size: 22px;
     line-height: 22px;
+    font-weight: 500;
   }
 
   &__text {
     font-size: 15px;
     line-height: 28px;
     color: $gray;
+    font-weight: 300;
   }
 
   &__link {
     font-size: 16px;
     line-height: 15px;
     color: $black;
+    font-weight: 500;
   }
 }

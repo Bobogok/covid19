@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
 body {
   background-color: $background;
   position: relative;
@@ -11,3 +17,11 @@ main {
   width: 80%;
   margin: 0 auto;
 }
+<<<<<<< Updated upstream
+=======
+
+.bg-blue {
+  background-color: #006ff9;
+  color: $white;
+}
+>>>>>>> Stashed changes
