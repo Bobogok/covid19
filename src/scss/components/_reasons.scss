@@ -1,0 +1,64 @@
+.reasons {
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+  }
+
+  &__block-text {
+    width: 454px;
+    height: auto;
+    margin-right: 50px;
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 44px;
+    color: $black;
+    width: 309px;
+  }
+
+  &__points {
+  }
+
+  &__point {
+    font-size: 16px;
+    color: #6f7074;
+    display: flex;
+    align-items: center;
+    width: 431px;
+    margin-top: 20px;
+    line-height: 20px;
+  }
+
+  &__point::before {
+    content: '✓';
+    color: $white;
+    font-size: 8px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 4px 3px 4px;
+    margin: auto 10px auto 0px;
+    background-color: $blue;
+    border-radius: 50%;
+  }
+
+  &__block-images {
+    position: relative;
+    margin-left: 120px;
+  }
+
+  &__image--doctor {
+  }
+
+  &__image--seal {
+    position: absolute;
+    z-index: 2;
+    top: 75%;
+    right: 78%;
+  }
+}
