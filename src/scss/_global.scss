@@ -17,11 +17,43 @@ main {
   width: 80%;
   margin: 0 auto;
 }
-<<<<<<< Updated upstream
-=======
 
-.bg-blue {
-  background-color: #006ff9;
-  color: $white;
+#slick-slide-control01,
+#slick-slide-control02 {
+  background-color: $blue;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  border: 2px solid $blue;
+  margin: 0px 5px;
 }
->>>>>>> Stashed changes
+
+#slick-slide-control00 {
+  background-color: $white;
+  border-radius: 50%;
+  width: 11px;
+  height: 11px;
+  border: 2px solid $blue;
+  margin: 0px 5px;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[role='presentation'] {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
