@@ -1,13 +1,9 @@
 @import 'header';
-<<<<<<< HEAD
 @import 'info';
-=======
-@import '_info';
-@import '_properties';
-@import '_heiq';
-@import '_projects';
-@import '_reasons';
-@import '_about';
-@import '_signboard';
-@import '_footer';
->>>>>>> upstream/main
+@import 'properties';
+@import 'heiq';
+@import 'projects';
+@import 'reasons';
+@import 'about';
+@import 'signboard';
+@import 'footer';
