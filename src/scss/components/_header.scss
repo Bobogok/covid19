@@ -14,7 +14,7 @@
   }
 
   &__menu {
-    padding: 10px 20px;
+    padding: 0 20px;
     background-color: $white;
   }
 
@@ -25,6 +25,9 @@
   &__item {
     font-weight: 500;
     padding: 5px 10px;
+    cursor: pointer;
+    line-height: 2rem;
+
     &:not(:last-child) {
       margin-right: 45px;
     }
@@ -34,26 +37,27 @@
     }
   }
 
-  &__contacts {
+  &__info {
     display: flex;
   }
 
-  &__contacts-img {
+  &__cart {
     position: relative;
     width: 38px;
     height: 38px;
     margin-right: 24px;
     background-color: $white;
     border-radius: 50%;
-
-    svg {
-      position: absolute;
-      top: calc(50% - (16px / 2));
-      left: calc(50% - (18px / 2));
-    }
+    cursor: pointer;
   }
 
-  &__contacts-button {
+  &__cart-img {
+    position: absolute;
+    top: calc(50% - (16px / 2));
+    left: calc(50% - (18px / 2));
+  }
+
+  &__info-button {
     font-weight: 500;
     padding: 9px 27px;
     background-color: $white;
