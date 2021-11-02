@@ -4,6 +4,23 @@
   display: flex;
   justify-content: center;
   position: relative;
+  // background-image: url(../img/info/background_main.png);
+  // background-repeat: no-repeat;
+  // background-position-x: 100%;
+  // background-size: 30% 30%;
+
+  &::after {
+    content: url('../img/info/background_main.png');
+    // background-image: url(../img/info/background_main.png);
+    // background-repeat: no-repeat;
+    // background-position-x: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: -5;
+  }
 
   &__wrapper {
     position: absolute;
