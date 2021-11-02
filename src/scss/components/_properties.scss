@@ -9,24 +9,21 @@
     right: 0%;
     top: 50%;
   }
+
   &__title {
     color: $black;
     font-size: 36px;
-    width: 718px;
-    height: 44px;
-    line-height: 44px;
     margin-top: 80px;
     font-weight: 600;
   }
 
   &__text {
-    width: 572px;
-    height: 52px;
     font-size: 15px;
     text-align: center;
-    color: $gray;
     margin-top: 30px;
     font-weight: 300;
+    line-height: 26px;
+    color: #999999;
   }
 
   &__inner {
@@ -40,7 +37,6 @@
     height: calc(21.5em + 4px);
     margin: 0px 46px;
     padding: 29px;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     border-radius: 8px;

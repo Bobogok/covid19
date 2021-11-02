@@ -84,7 +84,7 @@ function scripts() {
 
 function styles() {
   return (
-    src(config.srcStyles) // файл для чтения
+    src(['node_modules/slick-carousel/slick/slick.css', config.srcStyles]) // файл для чтения
       .pipe(sass(prodMode ? { outputStyle: 'compressed' } : { outputStyle: 'expanded' }).on('error', sass.logError)) // компрессим и преобразуем его в css c помощью пакета sass (у нас не было пакета scss, который был указан)
       .pipe(concat('style.min.css')) // переименовываем с помощью пакета concat
       .pipe(

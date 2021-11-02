@@ -1,18 +1,22 @@
 .signboard {
-  width: 1110px;
-  height: 327px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  position: absolute;
-  border-radius: 10px;
-  top: 96%;
-  left: 21%;
-  z-index: 5;
-  background-color: $blue;
+  &__inner {
+    // width: 1110px;
+    height: 327px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 10px;
+    top: 96%;
+    left: 21%;
+    z-index: 5;
+    background-color: $blue;
+  }
+
   &__title {
-    width: 878px;
+    // width: 878px;
+    text-transform: capitalize;
     text-align: center;
     font-size: 36px;
     line-height: 44px;

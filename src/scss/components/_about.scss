@@ -5,6 +5,7 @@
   flex-direction: column;
   position: relative;
   padding: 60px 0px 350px 0px;
+
   &__title {
     color: $black;
     font-size: 36px;
@@ -23,6 +24,8 @@
 
   &__inner {
     display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
   &__slider-comments {
@@ -89,5 +92,39 @@
     font-size: 14px;
     color: #6f7074;
     font-weight: 300;
+  }
+
+  // настройки слика
+  &__dots {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+
+    li + li {
+      // то же самое что и :not(:first-child)
+      margin-left: 10px;
+    }
+
+    .slick-active {
+      button {
+        background-color: $blue;
+      }
+    }
+
+    & li button {
+      font-size: 0;
+      line-height: 0;
+      display: block;
+      cursor: pointer;
+      color: transparent;
+      outline: none;
+      background: transparent;
+      background-color: $white;
+      border-radius: 50%;
+      width: 11px;
+      height: 11px;
+      border: 2px solid $blue;
+      transition: background-color 0.3s;
+    }
   }
 }

@@ -63,7 +63,8 @@
   &__made {
     color: $blue;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: 2px;
   }
 
   &__title {
@@ -76,7 +77,7 @@
 
   &__text {
     font-size: 16px;
-    line-height: 25px;
+    line-height: 26px;
     color: $gray;
     margin-top: 15px;
     font-weight: 400;
@@ -102,42 +103,37 @@
     background-color: $blue;
   }
 
-  &__button {
+  &__button-shop,
+  &__button-learn {
     width: 140px;
     height: 48px;
     border-radius: 4px;
     margin-top: 20px;
-
-    &--blue {
-      background-color: #006ff9;
-      color: $white;
-    }
     font-weight: 400;
   }
 
-  &__button:first-child {
+  &__button-shop {
     color: white;
+    background-color: #006ff9;
+    color: $white;
   }
 
-  &__button:last-child {
+  &__button-learn {
     margin-left: 30px;
     color: $blue;
     border: 1px solid $blue;
     background-color: rgba(0, 255, 255, 0);
   }
 
-  &__social {
-    width: auto;
-    height: auto;
+  &__socials {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
     position: absolute;
-    bottom: 0%;
-    left: 0%;
+    bottom: 0;
+    left: 0;
   }
 
-  &__social > img {
-    margin: 0px 20px;
+  &__social + &__social {
+    margin-left: 20px;
   }
 }
