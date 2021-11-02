@@ -1,8 +1,14 @@
 .properties {
+  padding-top: 80px;
   display: flex;
   align-items: center;
   flex-direction: column;
   position: relative;
+
+  &__inner {
+    display: flex;
+    margin-top: 45px;
+  }
 
   &__pattern {
     position: absolute;
@@ -13,7 +19,6 @@
   &__title {
     color: $black;
     font-size: 36px;
-    margin-top: 80px;
     font-weight: 600;
   }
 
@@ -26,8 +31,7 @@
     color: #999999;
   }
 
-  &__inner {
-    display: flex;
-    margin-top: 45px;
+  &__card {
+    margin: 0px 46px;
   }
 }

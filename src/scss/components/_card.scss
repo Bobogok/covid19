@@ -1,7 +1,6 @@
 .card {
   width: calc(21.5em + 4px);
   height: calc(21.5em + 4px);
-  margin: 0px 46px;
   padding: 29px;
   box-sizing: border-box;
   display: flex;
@@ -18,57 +17,21 @@
     position: relative;
   }
 
-  // .card:nth-child(2) > &__icon {
-  //   background-color: $white;
-  // }
+  &--blue {
+    background-color: $blue;
 
-  // .card:nth-child(2) > &__title {
-  //   color: $white;
-  // }
+    div {
+      color: $white;
+    }
 
-  // .card:nth-child(2) > &__text {
-  //   color: $white;
-  //   opacity: 0.6;
-  // }
+    .card__text {
+      opacity: 0.6;
+    }
 
-  // .card:nth-child(2) > &__link {
-  //   color: $white;
-  // }
-
-  // .card:nth-child(1) > &__icon::after {
-  //   content: url(../img/properties/gear.png);
-  //   position: absolute;
-  //   top: 25%;
-  //   left: 25%;
-  // }
-
-  // .card:nth-child(1) > &__icon::before {
-  //   content: url(../img/properties/arrow.png);
-  //   position: absolute;
-  //   top: 38%;
-  //   left: 40%;
-  // }
-
-  // .card:nth-child(2) > &__icon::after {
-  //   content: url(../img/properties/arrows.png);
-  //   position: absolute;
-  //   top: 28%;
-  //   left: 28%;
-  // }
-
-  // .card:nth-child(3) > &__icon::after {
-  //   content: url(../img/properties/semi_gear.png);
-  //   position: absolute;
-  //   top: 30%;
-  //   left: 30%;
-  // }
-
-  // .card:nth-child(3) > &__icon::before {
-  //   content: url(../img/properties/magnifier.png);
-  //   position: absolute;
-  //   top: 40%;
-  //   left: 40%;
-  // }
+    .card__icon {
+      background-color: $white;
+    }
+  }
 
   &__title {
     color: $black;
